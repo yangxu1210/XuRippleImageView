@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:background="#ffffff">
+
+        <cn.xu.accp.xrv.widget.XuRippleImageView
+            android:id="@+id/rippleImageView"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            app:ripple_circle_src="@drawable/ripple_circle"
+            app:centre_bg_src="@mipmap/uesr_icon"
+            app:show_spacing_time="500"
+            app:ripple_scale="1.5"
+            app:ripple_width="30dp"
+            app:ripple_heigth="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="水波扩散"
+            android:layout_centerInParent="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"/>
+    </RelativeLayout>
+
+    <cn.xu.accp.xrv.widget.XuRippleImageView
+        android:id="@+id/rippleImageView2"
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        app:ripple_circle_src="@drawable/ripple_circle2"
+        app:centre_bg_src="@mipmap/uesr_icon"
+        app:show_spacing_time="500"
+        app:ripple_scale="2.0"
+        app:ripple_width="80dp"
+        app:ripple_heigth="80dp"/>
+
+    <cn.xu.accp.xrv.widget.XuRippleImageView
+        android:id="@+id/rippleImageView3"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="200dp"
+        android:gravity="center"
+        app:ripple_circle_src="@drawable/ripple_circle2"
+        app:show_spacing_time="500"
+        app:ripple_scale="1.5"
+        app:ripple_width="50dp"
+        app:ripple_heigth="50dp"/>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="start"/>
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="stop"/>
+</LinearLayout>

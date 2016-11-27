@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="circle_ripple">
+        <!-- 动画默认循环播放时间 -->
+        <attr name="show_spacing_time" format="integer"/>
+        <!--  水波圆环资源 -->
+        <attr name="ripple_circle_src" format="reference"/>
+        <attr name="centre_bg_src" format="reference"/>
+        <!-- 圆环宽高 & 中心icon的宽高 -->
+        <attr name="ripple_width" format="dimension"/>
+        <attr name="ripple_heigth" format="dimension"/>
+        <!-- 缩放度：变大比例  不能低于 1.0f -->
+        <attr name="ripple_scale" format="float"/>
+    </declare-styleable>
+</resources>
