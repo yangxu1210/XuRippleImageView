@@ -2,7 +2,7 @@
 
 # qq交流群：123965382
 XuRippleImageView 是一个自定义的水波扩散view,在开源项目RippleImageView上做了些扩展，支持设置网络图片
-<br/>感谢RippleImageView的[作者LiuJunb](https://github.com/LiuJunb/RippleImageView "")  
+<br/>感谢RippleImageView的作者[LiuJunb](https://github.com/LiuJunb/RippleImageView "")  
 
 # 使用方法 
 
