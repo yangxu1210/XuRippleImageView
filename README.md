@@ -21,7 +21,7 @@ XuRippleImageView 是一个自定义的水波扩散view,在开源项目RippleIma
        app:ripple_heigth="30dp"/> 
   ```
   
-(2) 如果希望加载网络图片在xml设置的基础上调用setUrl即可
+(2) act的中代码调用
   
   ```java 
   xuRippleImageView=(XuRippleImageView)findViewById(R.id.rippleImageView);
